@@ -1,5 +1,21 @@
 body {
   font-family: "Kanit";
 }
+.box1 {
+  color: aliceblue;
+  background-color: black;
+  width: 250px;
+  position: relative;
+  bottom: 30px;
+}
 
-/* Start coding here */
+.box2 {
+  padding: 1rem;
+  font-size: 2rem;
+  color: aliceblue;
+  background-color: black;
+  width: 100px;
+  position: relative;
+  bottom: 300px;
+  left: 500px;
+}
