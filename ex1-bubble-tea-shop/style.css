@@ -2,4 +2,52 @@ body {
   font-family: "Kanit";
 }
 
-/* Start coding here */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.webpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+
+}
+
+.cafe {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: white;
+  padding: 5px;
+
+}
+
+img {
+  border-radius: 10px;
+
+
+}
+
+.cafename {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+
+.cafelocation {
+  color: white;
+  background-color: rgba(125,125,125,0.8);
+  position: absolute;
+  bottom: 250px;
+  left: 531px;
+  font-size: 25px;
+  padding: 5px 15px 5px 15px;
+}
