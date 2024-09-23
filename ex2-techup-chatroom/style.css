@@ -1,1 +1,111 @@
-/* Start coding here */
+/* Start coding kit */
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-chat {
+  width: 1440px;
+  height: 60px;
+  background-color: rgb(92, 94, 94);
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.title {
+  color: azure;
+  padding-left: 15px;
+}
+
+.container {
+  position: relative;
+  width: 1440px;
+  height: 700px;
+  margin-left: 30px;
+}
+
+.chatbox-1 {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  background-color: green;
+  width: 180px;
+  height: 40px;
+  border-radius: 30px;
+  top: 40px;
+  right: 50px;
+}
+
+.chatbox-2 {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  background-color: rgb(194, 199, 194);
+  width: 180px;
+  height: 40px;
+  border-radius: 30px;
+  top: 100px;
+  right: 50px;
+}
+
+.chatbox-3 {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  background-color: green;
+  width: 180px;
+  height: 40px;
+  border-radius: 30px;
+  top: 160px;
+  right: 50px;
+}
+
+.chatbox-4 {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  background-color: rgb(93, 95, 93);
+  width: 180px;
+  height: 40px;
+  border-radius: 30px;
+  top: 220px;
+}
+
+.chatbox-5 {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  background-color: rgb(93, 95, 93);
+  width: 180px;
+  height: 40px;
+  border-radius: 30px;
+  top: 280px;
+}
+
+.close-x {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: rgb(218, 221, 218);
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  top: 100px;
+  right: 40px;
+}
+
+h5,
+p {
+  font-size: 16px;
+  padding-left: 15px;
+}
+
+.close {
+  color: white;
+}
+
+/* End coding kit */
