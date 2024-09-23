@@ -1,49 +1,54 @@
 body {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
 
 .L {
-    width: 800px;
-    border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 500px;
 }
 
-h1 {
-    color: aliceblue;
-    background-color: black;
+.chatroom {
+  background-color: black;
+}
+
+.chatroom h1 {
+  color: aliceblue;
 }
 
 .chat-right {
-    position: relative;
-    left: 650px;
+  position: relative;
+  left: 650px;
 }
 
 .chat-right h3 {
-    background-color: green;
-    width: 150px;
-    border-radius: 30px;
+  background-color: green;
+  width: 150px;
+  border-radius: 30px;
 }
 
 .chat-left h3 {
-    background-color: beige;
-    width: 150px;
-    border-radius: 30px;
+  background-color: beige;
+  width: 150px;
+  border-radius: 30px;
 }
 
 #chat-coding {
-    background-color: beige;
-    border-radius: 30px;
+  background-color: beige;
+  border-radius: 30px;
 }
 
 .X {
-    color: aliceblue;
-    background-color: rgb(7, 7, 7);
-    border-radius: 30px;
-    width: 20px;
-    position: relative;
-    bottom: 90px;
-    left: 130px;
+  color: aliceblue;
+  background-color: rgb(7, 7, 7);
+  border-radius: 30px;
+  width: 20px;
+  position: relative;
+  bottom: 90px;
+  left: 130px;
 }
-
